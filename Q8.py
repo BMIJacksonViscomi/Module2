@@ -1,6 +1,6 @@
 #Creating a BMI function that takes a height(m) and weight(kg) arguements
 def BMI(h,w):
-    return w/(h**2) #CDC: BMI = Weight(kg)/Height(m)^2
+    return round(w/(h**2),1) #CDC: BMI = Weight(kg)/Height(m)^2, rounded to the 10th decimal place
 
 #Using susan to test out function
 #Susan is 1.58 m tall
